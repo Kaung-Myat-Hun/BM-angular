@@ -18,7 +18,6 @@ export class HomePageComponent1 {
   }
 
   mark=0;
-
   addMark(){
     this.mark ++
   }
