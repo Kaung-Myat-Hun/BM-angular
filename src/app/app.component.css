@@ -1,3 +1,4 @@
+
 .button{
   text-decoration: none;
   margin-left: 10px;
@@ -11,17 +12,19 @@
   list-style-type: none;
   display: flex;
   background-color: #007bff;
-  padding: 10px;
+  padding: 20px;
 }
 .navBar .button{
   color: #fff;
-  padding:10px;
+  padding:20px;
   transition: all 0.3s ease-in-out;
+  font-size: 1.3rem;
+  font-family: roboto, sans-serif;
 }
 .navBar .button:hover{
   opacity: 0.8;
   color: #4c4c4c;
 }
 .navBar .activebutton{
-  color: black;
+  color: rgba(0, 0, 0, 0.767);
 }
