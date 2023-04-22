@@ -1,3 +1,7 @@
+.button{
+  text-decoration: none;
+  color: #007bff;
+}
 .activebutton{
   color: black;
   text-decoration: none;
