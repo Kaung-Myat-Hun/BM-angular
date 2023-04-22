@@ -5,7 +5,8 @@ import { RouterModule, Routes } from '@angular/router'
 import { AppComponent } from './app.component';
 import { StepOneComponent } from './step-one/step-one.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { HomePageComponent } from './home-page/home-page.component'
+import { HomePageComponent } from './home-page/home-page.component';
+import { StepTwoComponent } from './step-one/step-two/step-two.component'
 
 const routes : Routes =[
   {path: '' , component:HomePageComponent},
@@ -19,6 +20,7 @@ const routes : Routes =[
     StepOneComponent,
     PageNotFoundComponent,
     HomePageComponent,
+    StepTwoComponent,
   ],
   imports: [
     BrowserModule,
