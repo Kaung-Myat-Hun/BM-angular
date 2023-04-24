@@ -1,4 +1,4 @@
-<p>home-page works!</p>
+<!-- <p>home-page works!</p>
 <button (click)="addFun()">Clicked {{count}} times </button> <br>
 <button (click)="sayHello()">Say hello</button> <br> <br>
 
@@ -6,7 +6,17 @@
 <button (click)="minusMark()">Minux mark</button>
 <button (click)="addByNumber(5)">Add Mark by 5</button>
 <button (click)="minusByNumber(5)">Minus by 5</button>
-<p>{{mark}}</p>
+<p>{{mark}}</p> -->
+
+<!-- <form (submit)="actionTake()">
+  <input type="text" name="" id="" [(ngModel)]="playerName">
+</form> -->
+
+<form (submit)="actionTake()">
+  <input type="text" [(ngModel)]="playerName" [ngModelOptions]="{standalone:true}">
+  <input type="text" [(ngModel)]="age" [ngModelOptions]="{standalone:true}">
+  <button >ok</button>
+</form>
 
 <!-- <div id="carouselExampleDark" class="carousel carousel-dark slide">
   <div class="carousel-inner">

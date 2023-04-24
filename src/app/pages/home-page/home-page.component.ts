@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+// import { NgModel } from '@angular/core'
 
 
 @Component({
@@ -40,5 +41,17 @@ export class HomePageComponent1 {
     }else{
       window.alert('sorry you cannot reduce less than 0')
     }
+  }
+
+  // let playerName: string
+  // actionTake() {
+  //   return this.playerName
+  // }
+
+  playerName : string =""
+  age: number = 0
+  actionTake() {
+    console.log(`Name is ${this.playerName} and age is ${this.age}`);
+
   }
 }
