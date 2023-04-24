@@ -7,6 +7,8 @@ import { StepOneComponent } from './step-one/step-one.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { StepTwoComponent } from './step-one/step-two/step-two.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
 
 const routes : Routes =[
   {path: '' , component:HomePageComponent},
@@ -27,6 +29,7 @@ const routes : Routes =[
     StepTwoComponent,
   ],
   imports: [
+    NgbModule,
     BrowserModule,
     RouterModule.forRoot(routes)
   ],
