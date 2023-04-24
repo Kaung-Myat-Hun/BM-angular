@@ -5,6 +5,7 @@ import {SecondPageComponent} from './second-page/second-page.component'
 import {ThirdPageComponent} from './third-page/third-page.component'
 import {ForthPageComponent} from './forth-page/forth-page.component'
 import {SecondMainPageComponent} from './second-main-page/second-main-page.component'
+import {CarouselComponent} from './home-page/carousel/carousel.component'
 
 const routes : Routes = [
   {
@@ -25,9 +26,14 @@ const routes : Routes = [
       {
         path: 'forth',
         component: ForthPageComponent
-      },{
+      },
+      {
         path: 'second-main',
         component: SecondMainPageComponent
+      },
+      {
+        path: 'carousel',
+        component: CarouselComponent
       }
     ]
   }
