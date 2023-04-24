@@ -51,7 +51,13 @@ export class HomePageComponent1 {
   playerName : string =""
   age: number = 0
   actionTake() {
-    console.log(`Name is ${this.playerName} and age is ${this.age}`);
-
+    if(this.playerName === "" || this.age === 0){
+      window.alert("Sorry! Please Enter all fields")
+    }else{
+      console.log(`Name is ${this.playerName} and age is ${this.age}`);
+      window.alert(`Name is ${this.playerName} and age is ${this.age}`);
+      this.playerName=""
+      this.age=0
+    }
   }
 }
