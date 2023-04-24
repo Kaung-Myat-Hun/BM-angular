@@ -8,7 +8,33 @@
 <button (click)="minusByNumber(5)">Minus by 5</button>
 <p>{{mark}}</p> -->
 
-<div class="d-flex">
-  <img src="../../../assets/bird-thumbnail.jpg" alt="image" class="image">
-  <p>Hello World</p>
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active ">
+      <div class="d-flex">
+        <img src="../../../assets/bird-thumbnail.jpg" class="d-block image " alt="...">
+        <p>Hello1</p>
+      </div>
+    </div>
+    <div class="carousel-item active">
+      <div class="d-flex">
+        <img src="../../../assets/bird-thumbnail.jpg" class="d-block image " alt="...">
+        <p>Hello2</p>
+      </div>
+    </div>
+    <div class="carousel-item active">
+      <div class="d-flex">
+        <img src="../../../assets/bird-thumbnail.jpg" class="d-block image " alt="...">
+        <p>Hello3</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
