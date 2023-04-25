@@ -5,10 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './reusable.component.html',
   styleUrls: ['./reusable.component.css']
 })
-class Reusable{
-  login: boolean;
-  buttonText: string;
-}
+
 export class ReusableComponent {
 
 }
