@@ -10,6 +10,7 @@ import { StepTwoComponent } from './step-one/step-two/step-two.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ReusableComponent } from './reusable/reusable.component';
 import { ContentComponent } from './content/content.component';
+import { FormsModule } from '@angular/forms';
 
 
 const routes : Routes =[
@@ -29,6 +30,7 @@ const routes : Routes =[
     PageNotFoundComponent,
     HomePageComponent,
     StepTwoComponent,
+
   ],
   imports: [
     NgbModule,
