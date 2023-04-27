@@ -7,5 +7,5 @@ import { StepTwoComponent } from './step-two/step-two.component'
   styleUrls: ['./step-one.component.css']
 })
 export class StepOneComponent {
-
+  dataFromP = {title: "Hello from parent"}
 }
