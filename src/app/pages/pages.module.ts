@@ -7,6 +7,7 @@ import {ThirdPageComponent} from './third-page/third-page.component'
 import {ForthPageComponent} from './forth-page/forth-page.component'
 import {PageRoutingModule} from './pages.routing.module'
 import { CarouselComponent } from "./home-page/carousel/carousel.component";
+import {StepOneComponent} from '../step-one/step-one.component'
 
 @NgModule({
     declarations: [HomePageComponent1, SecondPageComponent, ThirdPageComponent, ForthPageComponent],
@@ -15,7 +16,8 @@ import { CarouselComponent } from "./home-page/carousel/carousel.component";
         ReactiveFormsModule,
         CommonModule,
         PageRoutingModule,
-        CarouselComponent
+        CarouselComponent,
+
     ]
 })
 
