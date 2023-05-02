@@ -15,6 +15,9 @@
   </li>
 </ul>
 <router-outlet></router-outlet>
+
+<app-sizer [(size)]="fontSizePx"></app-sizer>
+<div [style.font-size.px]="fontSizePx">Resizable Text</div>
 <!-- <app-page-list temref="myPage"></app-page-list>
 <ng-template>
             <app-reusable>hey!</app-reusable>
