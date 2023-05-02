@@ -57,7 +57,7 @@ export class HomePageComponent1 {
       console.log(`Name is ${this.playerName} and age is ${this.age}`);
       window.alert(`Name is ${this.playerName} and age is ${this.age}`);
       this.playerName=""
-      this.age=0
+      this.age= ''
     }
   }
 }
