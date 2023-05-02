@@ -13,8 +13,8 @@
 </form> -->
 
 <form (submit)="actionTake()">
-  <input type="text" [(ngModel)]="playerName" [ngModelOptions]="{standalone:true}">
-  <input type="text" [(ngModel)]="age" [ngModelOptions]="{standalone:true}">
+  <input type="text" [(ngModel)]="playerName" [ngModelOptions]="{standalone:true}" placeholder="Enter Your Name">
+  <input type="text" [(ngModel)]="age" [ngModelOptions]="{standalone:true}" placeholder="Enter Your Age">
   <button >ok</button>
 </form>
 
