@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 // import { NgModel } from '@angular/core'
 
-
 @Component({
   selector: 'app-home-page',
   templateUrl: './home-page.component.html',
@@ -9,37 +8,37 @@ import { Component } from '@angular/core';
 })
 export class HomePageComponent1 {
   count = 0;
-  mark=0;
-  addFun(){
-    this.count ++
+  mark = 0;
+  addFun() {
+    this.count++;
   }
 
-  sayHello(){
-    window.alert('Hello User')
+  sayHello() {
+    window.alert('Hello User');
   }
 
-  addMark(){
-    this.mark ++
+  addMark() {
+    this.mark++;
   }
-  minusMark(){
+  minusMark() {
     if (this.mark == 0) {
-      window.alert("sorry cannot reduce mark anymore")
-    }else{
-      this.mark --
+      window.alert('sorry cannot reduce mark anymore');
+    } else {
+      this.mark--;
     }
   }
 
-  addByNumber(number:number){
-    this.mark += number
+  addByNumber(number: number) {
+    this.mark += number;
   }
 
-  minusByNumber(number:number){
+  minusByNumber(number: number) {
     if (this.mark >= 5) {
-      this.mark -= number
-    }else if (this.mark < 5 && this.mark >0) {
-      window.alert("sorry your number is less than 5")
-    }else{
-      window.alert('sorry you cannot reduce less than 0')
+      this.mark -= number;
+    } else if (this.mark < 5 && this.mark > 0) {
+      window.alert('sorry your number is less than 5');
+    } else {
+      window.alert('sorry you cannot reduce less than 0');
     }
   }
 
@@ -48,16 +47,16 @@ export class HomePageComponent1 {
   //   return this.playerName
   // }
 
-  playerName : string =""
-  age: number | string = ''
+  playerName: string = '';
+  age: number | string = '';
   actionTake() {
-    if(this.playerName === "" || this.age === 0 || this.age === ''){
-      window.alert("Sorry! Please Enter all fields")
-    }else{
+    if (this.playerName === '' || this.age === 0 || this.age === '') {
+      window.alert('Sorry! Please Enter all fields');
+    } else {
       console.log(`Name is ${this.playerName} and age is ${this.age}`);
       window.alert(`Name is ${this.playerName} and age is ${this.age}`);
-      this.playerName=""
-      this.age= ''
+      this.playerName = '';
+      this.age = '';
     }
   }
 }

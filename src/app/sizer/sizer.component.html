@@ -1,5 +1,11 @@
 <div>
-  <button type="button" (click)="dec()">-</button>
-  <button type="button" (click)="inc()">+</button>
-  <span [style.font-size.px]="size">Font Size {{size}}</span>
+	<button (click)="dec()"
+		type="button">
+		-
+	</button>
+	<button (click)="inc()"
+		type="button">
+		+
+	</button>
+	<span [style.font-size.px]="size">Font Size {{size}}</span>
 </div>
