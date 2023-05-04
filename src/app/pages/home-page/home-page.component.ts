@@ -9,6 +9,7 @@ import { Component } from '@angular/core';
 })
 export class HomePageComponent1 {
   count = 0;
+  mark=0;
   addFun(){
     this.count ++
   }
@@ -17,7 +18,6 @@ export class HomePageComponent1 {
     window.alert('Hello User')
   }
 
-  mark=0;
   addMark(){
     this.mark ++
   }
